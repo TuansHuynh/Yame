@@ -5,6 +5,9 @@
 body{
     font-family: mulish, raleway, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
 }
+@media (max-width: 768px){
+
+}
 nav{
     background-color: #343a40 ;
     display: flex;
@@ -90,6 +93,10 @@ nav img{
     display: flex;
     justify-content: center;
 }
+/* .menu_2 .search     :hover .child_5_content{
+    opacity: 1;
+    visibility: visible;
+} */
 /* -----------------Child Menu 1----------------------- */
 .child_1_content {
     position: fixed;
@@ -162,13 +169,13 @@ nav img{
         color: black;
     }
 }
-/* -----------------Child Menu 3----------------------- */
+/* -----------------Child Menu 4----------------------- */
 .child_4_content{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     position: fixed;
     width: 1280px;
-    height: 360px;
+    height: 370px;
     position: fixed;
     opacity: 0;
     visibility: hidden;
@@ -179,4 +186,29 @@ nav img{
 }
 .child_4_content div{
     margin: 10px;
+}
+.child_4_content ul li a{
+    font-size: 15px;
+}
+/* -----------------Child Menu 5----------------------- */
+.child_5_content{
+    position: fixed;
+    margin: -101px 0px 0 -1088px;
+    background-color: white;
+    width: 977px;
+    padding: 0px 241px;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.child_5_content input{
+    width: 1000px;
+    height: 98px;
+    font-size: 40px;
+    border: none;
+}
+.child_5_content p{
+    font-size: 30px;
+    color: rgb(132, 132, 132);
 }
