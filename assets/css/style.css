@@ -167,22 +167,16 @@ nav img{
     display: flex;
     flex-wrap: wrap;
     position: fixed;
-    width: 1460px;
-    height: 280px;
-    margin: 10px 0 0 -785px;
+    width: 1280px;
+    height: 360px;
     position: fixed;
     opacity: 0;
     visibility: hidden;
     background-color: #25262a;
-    margin: 40px 0px 0 -15px;
+    margin: 40px 0px 0 -740px;
     border-top: 3px solid #ee4266;
     transition: all 0.15s ease;
 }
-/* .child_4_content li{
-    margin: 0;
-    padding: 10px 20px;
-} */
-.child_4_content li a{
-    font-size: 1rem;
-    padding: 20px 40px 20px -15px;
+.child_4_content div{
+    margin: 10px;
 }
