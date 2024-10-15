@@ -26,6 +26,12 @@ nav img{
     width: 100px;
     margin-right: 100px;
 }
+.menu_1{
+    z-index: 2;
+}
+.menu_2{
+    z-index: 1;
+}
 .menu_1 li, .menu_2 li{
     list-style-type: none;
     margin: 0 10px;
@@ -191,13 +197,13 @@ nav img{
     font-size: 15px;
 }
 /* -----------------Child Menu 5----------------------- */
-.child_5_content{
+/* .child_5_content{
     position: fixed;
-    margin: -101px 0px 0 -1088px;
+    margin: -78px 0px 0 -1088px;
     background-color: white;
     width: 977px;
     padding: 0px 241px;
-    /* display: none; */
+    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -211,4 +217,4 @@ nav img{
 .child_5_content p{
     font-size: 30px;
     color: rgb(132, 132, 132);
-}
+} */
